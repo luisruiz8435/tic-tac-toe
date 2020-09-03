@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="scoreboard">
+      <span>Scores:</span>
+    </div>
+    <button id="restartButton" onClick="restartGame()">Restart Game</button>
+    <div class="board">
+      <div class="firstRow">
+        <div id="cellOne" onClick="cellOneClicked()"><div class="cells">X</div></div>
+        <div id="cellTwo" onClick="cellTwoClicked()"><div class="cells">X</div></div>
+        <div id="cellThree" onClick="cellThreeClicked()"><div class="cells">X</div></div>
+      </div>
+      <div class="secondRow">
+        <div id="cellFour" onClick="cellFourClicked()"><div class="cells">X</div></div>
+        <div id="cellFive" onClick="cellFiveClicked()"><div class="cells">X</div></div>
+        <div id="cellSix" onClick="cellSixClicked()"><div class="cells">X</div></div>
+      </div>
+      <div class="thirdRow">
+        <div id="cellSeven" onClick="cellSevenClicked()"><div class="cells">X</div></div>
+        <div id="cellEight" onClick="cellEightClicked()"><div class="cells">X</div></div>
+        <div id="cellNine" onClick="cellNineClicked()"><div class="cells">X</div></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

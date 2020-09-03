@@ -1,0 +1,146 @@
+body {
+  background: url(NGNL.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  line-height: normal;
+}
+
+.board {
+  font-size: 9rem;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#scoreboard {
+  color: white;
+  margin: 0 auto 1rem auto;
+  width: 8rem;
+  white-space: nowrap;
+}
+
+#xscores, #oscores {
+  margin-right: 2rem;
+  display: inline-block;
+}
+
+#restartButton {
+  font-weight: 700;
+  border-radius: 300px;
+  background-color: rgb(126, 233, 213);;
+  border-color: rgb(126, 233, 213);;
+}
+
+#restartButton:hover {
+  background-color: rgb(255, 112, 112);
+  border-color: rgb(255, 112, 112);
+  border-width: 4px;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+#cellOne {
+  background-color: rgb(115, 157, 147, 0.5);
+  width: 10rem;
+  display: inline-block;
+  border-right: 5px solid rgb(126, 233, 213);
+  border-bottom: 5px solid rgb(126, 233, 213);
+  padding: 1rem;
+}
+
+#cellTwo {
+  background-color: rgb(115, 157, 147, 0.5);
+  width: 10rem;
+  display: inline-block;
+  border-right: 5px solid rgb(126, 233, 213);
+  border-bottom: 5px solid rgb(126, 233, 213);
+  padding: 1rem;
+}
+
+#cellThree {
+  background-color: rgb(115, 157, 147, 0.5);
+  width: 10rem;
+  display: inline-block;
+  border-bottom: 5px solid rgb(126, 233, 213);
+  padding: 1rem;
+}
+
+.secondRow {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+#cellFour {
+  background-color: rgb(115, 157, 147, 0.5);
+  width: 10rem;
+  display: inline-block;
+  border-right: 5px solid rgb(126, 233, 213);
+  border-bottom: 5px solid rgb(126, 233, 213);
+  padding: 1rem;
+}
+
+#cellFive {
+  background-color: rgb(115, 157, 147, 0.5);
+  width: 10rem;
+  display: inline-block;
+  border-right: 5px solid rgb(126, 233, 213);
+  border-bottom: 5px solid rgb(126, 233, 213);
+  padding: 1rem;
+}
+
+#cellSix {
+  background-color: rgb(115, 157, 147, 0.5);
+  width: 10rem;
+  display: inline-block;
+  border-bottom: 5px solid rgb(126, 233, 213);
+  padding: 1rem;
+}
+
+.thirdRow {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+#cellSeven {
+  background-color: rgb(115, 157, 147, 0.5);
+  width: 10rem;
+  display: inline-block;
+  border-right: 5px solid rgb(126, 233, 213);
+  padding: 1rem;
+}
+
+#cellEight {
+  background-color: rgb(115, 157, 147, 0.5);
+  width: 10rem;
+  display: inline-block;
+  border-right: 5px solid rgb(126, 233, 213);
+  padding: 1rem;
+}
+
+#cellNine {
+  background-color: rgb(115, 157, 147, 0.5);
+  width: 10rem;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.cells {
+  visibility: hidden;
+}
+
+.input {
+  position: absolute;
+  display: inline-block;
+  margin-left: 1rem;
+}
